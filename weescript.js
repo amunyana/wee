@@ -17,7 +17,7 @@ const songs = [
     title: 'Wee',
     artist: 'Maya-Marie',
     coverPath: 'Almiraj.png',
-    discPath: '.\Wee.mp3',
+    discPath: 'Wee.mp3',
     duration: '0:01',
   },
 ];
