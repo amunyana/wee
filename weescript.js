@@ -16,8 +16,8 @@ const songs = [
   {
     title: 'Wee',
     artist: 'Maya-Marie',
-    coverPath: 'assets/images/Almiraj.png',
-    discPath: 'assets/music/wee.mp3',
+    coverPath: 'Almiraj.png',
+    discPath: 'wee.mp3',
     duration: '0:01',
   },
 ];
@@ -119,7 +119,7 @@ play.addEventListener('click', playPauseMedia);
 disc.addEventListener('play', updatePlayPauseIcon);
 disc.addEventListener('pause', updatePlayPauseIcon);
 disc.addEventListener('timeupdate', updateProgress);
-disc.addEventListener('ended', gotoNextSong.bind(null, true));
+disc.addEventListener('ended');
 
 // Go to next song when next button clicked
 prev.addEventListener('click', gotoPreviousSong);
